@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Twitter Clone</h1>
+    <label for="userSelect">Search:</label>
+    <select id="userSelect"></select>
+    
+    <div class="profile">
+      <div class="image">
+        <img id="userImage" src="./screenshot-2022-05-24-at-15-22-28.png" alt="User Profile Image">
+      </div>
+      <div class="details">
+        <ul>
+          <h5 id="userName"></h5>
+          <h5 id="userUsername"></h5>
+          <h5 id="userEmail"></h5>
+          <h5 id="userLocation"></h5>
+        </ul>
+      </div>
+    </div>
+    <div class="comments">
+      <h2>Post</h2>
+      <ul id="commentsList"></ul>
+    </div>
+    <div id="commentsContainer"></div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
